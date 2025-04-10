@@ -1,0 +1,8 @@
+logLevel: debug
+projects:
+  - id: main
+    upstreams:
+      # Put all your RPC endpoints for any network here.
+      # You don't need to define architecture (e.g. evm) or chain id (e.g. 42161)
+      # as they will be detected automatically by eRPC.
+      - endpoint: ${ALCHEMY_RPC_ENDPOINT}
